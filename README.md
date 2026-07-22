@@ -1,4 +1,4 @@
-Personal Finance Tracker
+#Personal Finance Tracker
 
 A simple command-line application written in Python for tracking personal income and expenses.
 
