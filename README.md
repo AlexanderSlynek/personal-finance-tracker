@@ -1,36 +1,28 @@
-#Personal Finance Tracker
+Personal Finance Tracker
 
-A simple command-line application written in Python for tracking personal income and expenses.
-
-⸻
+A simple command-line Personal Finance Tracker application written in Python.
 
 About
 
-Personal Finance Tracker is a console application that helps users manage their personal finances.
+This project is a console application for managing personal finances. It allows users to record income and expenses, calculate the current balance, organize transactions by category, search and sort transactions, and automatically save all data to a text file between program launches.
 
-The application allows users to add income and expenses, monitor their balance, organize transactions by category, search and sort records, and automatically save all data between launches.
-
-This project was developed to improve Python programming skills and practice working with file handling, functions, lists, dictionaries, and exception handling.
-
-⸻
+The project was created to practice Python programming and improve skills in file handling, exception handling, and working with functions and data structures.
 
 Features
 
 * Add income
 * Add expenses
-* View transaction history
-* Calculate current balance
-* Display total income
-* Display total expenses
-* Delete individual transactions
+* View all transactions
+* Show current balance
+* Show total income
+* Show total expenses
+* Delete transactions
 * Clear all transactions
 * Search transactions by keyword
 * Sort transactions by amount
-* Display income by category
-* Display expenses by category
-* Automatically save data
-
-⸻
+* View income by category
+* View expenses by category
+* Automatic saving to transactions.txt
 
 Technologies
 
@@ -38,10 +30,23 @@ Technologies
 * datetime
 * File handling
 * Exception handling
+* Functions
 * Lists
 * Dictionaries
 
-⸻
+How to Run
+
+Clone the repository:
+
+git clone https://github.com/AlexanderSlynek/personal-finance-tracker.git
+
+Go to the project folder:
+
+cd personal-finance-tracker
+
+Run the program:
+
+python personal_finance_tracker.py
 
 Project Structure
 
@@ -50,24 +55,6 @@ personal-finance-tracker/
 ├── personal_finance_tracker.py
 ├── transactions.txt
 └── README.md
-
-⸻
-
-Getting Started
-
-Clone the repository:
-
-git clone https://github.com/AlexanderSlynek/personal-finance-tracker.git
-
-Open the project folder:
-
-cd personal-finance-tracker
-
-Run the application:
-
-python personal_finance_tracker.py
-
-⸻
 
 Example
 
@@ -85,31 +72,14 @@ Example
 12 - Show income categories
 13 - Exit
 
-⸻
-
-Data Storage
-
-All transactions are stored in transactions.txt.
-
-Example:
-
-Income;5000;Salary;Monthly salary;22.07.2026
-Expense;450;Food;Lunch;22.07.2026
-
-⸻
-
 Future Improvements
 
-* Replace TXT storage with JSON or SQLite
+* Store data in JSON or SQLite
 * Add monthly financial reports
-* Build a graphical user interface (GUI)
 * Export reports to Excel or PDF
-* Add charts and financial analytics
-
-⸻
+* Add charts for financial analysis
+* Create a graphical user interface (GUI)
 
 Author
 
 Alexander Slynek
-
-Second Python project.
