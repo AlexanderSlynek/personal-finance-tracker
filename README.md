@@ -4,7 +4,7 @@ A simple command-line Personal Finance Tracker application written in Python.
 
 About
 
-This project is a console application for managing personal finances. It allows users to record income and expenses, calculate the current balance, organize transactions by category, search and sort transactions, and automatically save all data to a text file between program launches.
+This project is a console application for managing personal finances. It allows users to record income and expenses, calculate their current balance, organize transactions by category, search and sort records, and automatically save all data between program launches.
 
 The project was created to practice Python programming and improve skills in file handling, exception handling, and working with functions and data structures.
 
@@ -48,6 +48,10 @@ Run the program:
 
 python personal_finance_tracker.py
 
+If your file is still named Personal Finance Tracker.py, use:
+
+python "Personal Finance Tracker.py"
+
 Project Structure
 
 personal-finance-tracker/
@@ -71,6 +75,15 @@ Example
 11 - Show expense categories
 12 - Show income categories
 13 - Exit
+
+Data Storage
+
+All transactions are stored in transactions.txt.
+
+Example:
+
+Income;5000;Salary;Monthly salary;22.07.2026
+Expense;450;Food;Lunch;22.07.2026
 
 Future Improvements
 
