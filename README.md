@@ -1,54 +1,48 @@
 Personal Finance Tracker
 
-Overview
+A console-based application written in Python for managing personal income and expenses.
 
-Personal Finance Tracker is a command-line application written in Python that helps users manage their personal finances.
+⸻
 
-The application allows users to record income and expenses, monitor their balance, organize transactions by category, and store financial data between program launches.
+Description
 
-This project was created to practice Python programming, file handling, data processing, and working with functions.
+Personal Finance Tracker is a command-line application that allows users to record and organize their financial transactions.
+
+The program supports adding income and expenses, calculating the current balance, searching and sorting transactions, displaying statistics by category, and automatically saving data between program launches.
+
+This project was created to practice Python programming, file handling, and working with data structures.
+
+⸻
 
 Features
 
-Record income
+Function	Description
+Add Income	Record income transactions
+Add Expense	Record expense transactions
+Transaction History	View all saved transactions
+Balance Calculation	Calculate the current balance
+Total Income	Display the total amount of income
+Total Expenses	Display the total amount of expenses
+Delete Transaction	Remove a selected transaction
+Clear History	Delete all saved transactions
+Search	Find transactions by keyword
+Sorting	Sort transactions by amount
+Expense Categories	View expenses grouped by category
+Income Categories	View income grouped by category
+Data Persistence	Automatically save transactions to a file
 
-Record expenses
-
-View transaction history
-
-Calculate current balance
-
-Display total income
-
-Display total expenses
-
-Delete individual transactions
-
-Clear all transactions
-
-Search transactions by keyword
-
-Sort transactions by amount
-
-Display income grouped by category
-
-Display expenses grouped by category
-
-Automatically save all data to a local file
+⸻
 
 Technologies
 
-Python 3
+* Python 3
+* datetime
+* File handling
+* Exception handling
+* Lists
+* Dictionaries
 
-datetime
-
-File I/O
-
-Exception handling
-
-Lists
-
-Dictionaries
+⸻
 
 Project Structure
 
@@ -58,13 +52,15 @@ personal-finance-tracker/
 ├── transactions.txt
 └── README.md
 
-Getting Started
+⸻
+
+Installation
 
 Clone the repository:
 
 git clone https://github.com/AlexanderSlynek/personal-finance-tracker.git
 
-Open the project folder:
+Open the project directory:
 
 cd personal-finance-tracker
 
@@ -72,58 +68,53 @@ Run the application:
 
 python personal_finance_tracker.py
 
-Example
+⸻
 
-1 - Add income
-2 - Add expense
-3 - Show all transactions
-4 - Show balance
-5 - Show total income
-6 - Show total expense
-7 - Clear all transactions
-8 - Delete transaction
-9 - Search transactions
+Example Menu
+
+1  - Add income
+2  - Add expense
+3  - Show all transactions
+4  - Show balance
+5  - Show total income
+6  - Show total expenses
+7  - Clear all transactions
+8  - Delete transaction
+9  - Search transactions
 10 - Sort transactions
-11 - Expense categories
-12 - Income categories
+11 - Show expense categories
+12 - Show income categories
 13 - Exit
 
-Data Storage
+⸻
 
-All transactions are stored in the transactions.txt file.
+Data Format
 
-Each transaction contains:
+Transactions are stored in the transactions.txt file.
 
-Transaction type
+Each record contains:
 
-Amount
-
-Category
-
-Comment
-
-Date
+Transaction Type ; Amount ; Category ; Comment ; Date
 
 Example:
 
 Income;3500;Salary;Monthly salary;22.07.2026
+Expense;450;Food;Lunch;22.07.2026
+
+⸻
 
 Future Improvements
 
-Store data in JSON or SQLite
+* Store data in JSON or SQLite
+* Add monthly statistics
+* Add data visualization
+* Export reports to Excel or PDF
+* Develop a graphical user interface (GUI)
 
-Monthly statistics
-
-Graphical user interface (Tkinter or PyQt)
-
-Charts for income and expenses
-
-Export reports to Excel or PDF
-
-Budget planning
+⸻
 
 Author
 
 Alexander Slynek
 
-This project was developed as a personal learning project to improve Python programming skills.
+Python learning project.
